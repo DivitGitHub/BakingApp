@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Recipe View -->
+    <dimen name="recipe_padding">8dp</dimen>
+
+    <!-- Detail View -->
+    <dimen name="line_divider_margin">2dp</dimen>
+
+    <!-- Custom controls -->
+    <dimen name="play_pause_size">50dp</dimen>
+    <dimen name="step_detail_method_margin">6dp</dimen>
+    <dimen name="step_title_text_size">16sp</dimen>
+    <dimen name="ingredient_list_item_text_size">14sp</dimen>
+    <dimen name="ingredient_list_padding_top_bottom">6dp</dimen>
+    <dimen name="ingredient_list_padding_left_right">12dp</dimen>
+    <dimen name="step_detail_text_size">16sp</dimen>
+    <dimen name="method_padding_bottom">40dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

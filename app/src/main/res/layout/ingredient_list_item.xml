@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear_layout_ingredient_list_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ingredient_name_item"
+            tools:text="name"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ingredient_list_item_text_size"
+            android:paddingTop="@dimen/ingredient_list_padding_top_bottom"
+            android:paddingBottom="@dimen/ingredient_list_padding_top_bottom"
+            android:paddingLeft="@dimen/ingredient_list_padding_left_right"
+            android:paddingRight="@dimen/ingredient_list_padding_left_right"/>
+
+        <TextView
+            android:id="@+id/quantity_and_measure_item"
+            tools:text="measure"
+            android:textSize="@dimen/ingredient_list_item_text_size"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/ingredient_list_padding_top_bottom"/>
+
+    </LinearLayout>
+
+</LinearLayout>
