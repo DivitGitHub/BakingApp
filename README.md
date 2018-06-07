@@ -7,7 +7,7 @@ In this project I've learnt:
 
 - Use of MediaPlayer/Exoplayer to display videos.
 - Handle error cases in Android.
-- Add a widget to my app experience.
+- Added a widget to my app experience.
 - Leverage a third-party library in my app.
 - Use of Fragments to create a responsive design that works on phones and tablets.
 
@@ -17,14 +17,14 @@ In this project I've learnt:
 - App should display recipes from provided network resource.
 - App should allow navigation between individual recipes and recipe steps.
 - App uses RecyclerView and can handle recipe steps that include videos or images.
-- App has a companion homescreen widget.
-- Widget displays ingredient list for desired recipe.
 
 ### Components and Libraries
 - Application uses Master Detail Flow to display recipe steps and navigation between them.
 - Application uses Exoplayer to display videos.
 - Application properly initializes and releases video assets when appropriate.
 - Application should properly retrieve media assets from the provided network links. It should properly handle network requests.
+- App has a companion homescreen widget.
+- Widget displays ingredient list for desired recipe.
 
 ### UI Testing
 - Application makes use of Espresso to test aspects of the UI.
