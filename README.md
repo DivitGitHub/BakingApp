@@ -1,6 +1,6 @@
 # BakingApp
 
-Here is an android application for the Udacity Baking App project. This application shows a list of recipes with their respective ingredients and videos.
+Here is an android application, for the Udacity Baking app project, to view video recipes that incorporated fragments, media loading, verifying user interfaces with UI tests, integrated third party libraries and provided a complete UX with a home screen widget. 
 
 ## What have I learnt?
 In this project I've learnt:
